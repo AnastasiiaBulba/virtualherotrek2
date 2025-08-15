@@ -1,0 +1,453 @@
+{
+  "site": {
+    "name": "Lafufu Typer",
+    "description": "Colorful Letter Matching Adventure",
+    "domain": "virtualherotrek.com",
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-15"
+  },
+  "game": {
+    "title": "Lafufu Typer",
+    "subtitle": "Master the art of letter matching in this colorful and chaotic typing adventure!",
+    "iframeUrl": "https://html5.gamemonetize.co/5mzwe1fglvuzmhbdmdi11mveaitby5p2/",
+    "description": "Your goal is to quickly match the correct letters of the colorful and chaotic Lafufus before they reach the barrier and break through your defenses, ending the game and your progress.",
+    "tags": [
+      "1 Player",
+      "2D",
+      "Amazing",
+      "Casual",
+      "Color",
+      "Cute",
+      "Fun",
+      "Funny",
+      "HTML",
+      "HTML5 Games",
+      "Hypercasual",
+      "Kids",
+      "Labubu",
+      "Typing Game",
+      "Letter Matching",
+      "Colorful Game"
+    ],
+    "features": [
+      {
+        "icon": "🎯",
+        "title": "Fast-Paced Action",
+        "description": "Experience intense letter matching with increasing speed and difficulty levels."
+      },
+      {
+        "icon": "🌈",
+        "title": "Colorful Graphics",
+        "description": "Enjoy vibrant and eye-catching visuals with the adorable Lafufu characters."
+      },
+      {
+        "icon": "⚡",
+        "title": "Quick Reflexes",
+        "description": "Test your typing speed and reaction time in this exciting challenge."
+      },
+      {
+        "icon": "🏆",
+        "title": "Score System",
+        "description": "Compete for high scores and challenge yourself to improve with each play."
+      }
+    ]
+  },
+  "hero": {
+    "title": "Lafufu Typer",
+    "subtitle": "Master the art of letter matching in this colorful and chaotic typing adventure!",
+    "ctaText": "Play Now",
+    "backgroundImage": "./pict/hero.jpg"
+  },
+  "howToPlay": {
+    "title": "How to Play Lafufu Typer",
+    "sections": [
+      {
+        "title": "Watch the Letters",
+        "icon": "👀",
+        "rules": [
+          "Pay attention to the colorful Lafufus carrying letters as they approach the barrier",
+          "Focus on the letter each Lafufu is carrying",
+          "Be ready to type quickly when letters get close"
+        ]
+      },
+      {
+        "title": "Type Quickly",
+        "icon": "⌨️",
+        "rules": [
+          "Type the correct letters before the Lafufus reach the barrier",
+          "Use your keyboard to input letters accurately",
+          "Speed is crucial as the game progresses"
+        ]
+      },
+      {
+        "title": "Stay Focused",
+        "icon": "🎯",
+        "rules": [
+          "Keep your concentration high as the game gets more challenging",
+          "Don't let the colorful chaos distract you",
+          "Focus on one letter at a time"
+        ]
+      }
+    ]
+  },
+  "fieldDescription": {
+    "title": "About Lafufu Typer",
+    "subtitle": "Colorful Letter Matching Adventure",
+    "description": "Lafufu Typer is an exciting and fast-paced typing game that challenges your reflexes and letter recognition skills. Your mission is to quickly identify and type the correct letters carried by the colorful and chaotic Lafufus before they reach the barrier and break through your defenses.",
+    "elements": [
+      {
+        "icon": "🎯",
+        "name": "Letter Recognition",
+        "color": "success"
+      },
+      {
+        "icon": "⚡",
+        "name": "Speed Challenge",
+        "color": "primary"
+      },
+      {
+        "icon": "🌈",
+        "name": "Colorful Characters",
+        "color": "secondary"
+      },
+      {
+        "icon": "🚧",
+        "name": "Barrier Defense",
+        "color": "warning"
+      }
+    ],
+    "image": "./pict/block1.jpg"
+  },
+
+  "reviews": {
+    "title": "Player Reviews",
+    "subtitle": "What players say about Lafufu Typer",
+    "items": [
+      {
+        "id": 1,
+        "name": "TypingMaster_2025",
+        "avatar": {
+          "fill": "#FF6B6B",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "Amazing typing game! The colorful Lafufus are so cute and the challenge gets really intense. Perfect for improving typing speed!",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "LetterHunter",
+        "avatar": {
+          "fill": "#4ECDC4",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "Love this game! It's both fun and educational. My kids are learning letters while having a blast with the colorful characters.",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "name": "SpeedDemon",
+        "avatar": {
+          "fill": "#45B7D1",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "Incredible speed challenge! The game really tests your reflexes and typing accuracy. Can't stop playing!",
+        "rating": 5
+      },
+      {
+        "id": 4,
+        "name": "ColorfulGamer",
+        "avatar": {
+          "fill": "#96CEB4",
+          "eyes": "#333",
+          "mouth": "#333"
+        },
+        "text": "The graphics are stunning and the gameplay is addictive. Perfect casual game for quick breaks!",
+        "rating": 5
+      }
+    ]
+  },
+
+  "news": {
+    "title": "Lafufu Typer News",
+    "subtitle": "Stay updated with the latest developments, updates, and exciting stories from the colorful letter matching world!",
+    "categories": [
+      {
+        "name": "Game Updates",
+        "articles": [
+          {
+            "id": 1,
+            "title": "New Speed Levels Released!",
+            "date": "2025-01-15",
+            "excerpt": "Discover the latest enhancements to Lafufu Typer, including new speed challenges, special power-ups, and exciting letter combinations that will test your typing skills.",
+            "image": "./pict/new1.jpg",
+            "category": "updates"
+          },
+          {
+            "id": 2,
+            "title": "50+ New Letter Challenges!",
+            "date": "2025-01-10",
+            "excerpt": "We've expanded the typing adventure with over 50 new challenging levels. Face faster-paced letter matching and test your reflexes like never before.",
+            "image": "./pict/new2.jpg",
+            "category": "updates"
+          }
+        ]
+      },
+      {
+        "name": "Developer Diaries",
+        "articles": [
+          {
+            "id": 1,
+            "title": "Behind the Scenes: Creating the Colorful World",
+            "date": "2025-01-08",
+            "excerpt": "Take a journey behind the scenes and discover how our team created the vibrant Lafufu characters and colorful letter matching environment.",
+            "category": "diaries"
+          },
+          {
+            "id": 2,
+            "title": "Community Spotlight: Player Achievements",
+            "date": "2025-01-05",
+            "excerpt": "Meet some of our amazing players and hear their stories. From casual gamers to typing masters, discover how Lafufu Typer has brought joy to players worldwide.",
+            "category": "diaries"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions, feedback, or want to share your typing adventure? We'd love to hear from you!",
+    "description": "We're here to help and would love to hear from you. Whether you have a question about the game, want to report a bug, or just want to share your experience, don't hesitate to reach out.",
+    "methods": [
+      {
+        "type": "Email",
+        "icon": "📧",
+        "value": "contact@virtualherotrek.com",
+        "link": "mailto:contact@virtualherotrek.com",
+        "note": "We typically respond within 24 hours"
+      },
+      {
+        "type": "Phone",
+        "icon": "📞",
+        "value": "+44 33 121 4567",
+        "link": "tel:+44331214567",
+        "note": "Available Monday-Friday, 9 AM - 6 PM GMT"
+      },
+      {
+        "type": "Address",
+        "icon": "📍",
+        "value": "30 St Mary Axe, London EC3A 8BF, United Kingdom",
+        "note": "Business inquiries welcome"
+      }
+    ],
+    "form": {
+      "title": "Send us a Message",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true,
+          "validation": "letters_only"
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "required": true,
+          "validation": "email"
+        },
+        {
+          "name": "phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "required": false,
+          "validation": "numbers_only"
+        },
+        {
+          "name": "subject",
+          "label": "Subject",
+          "type": "select",
+          "required": true,
+          "options": [
+            "General Inquiry",
+            "Technical Support",
+            "Game Feedback",
+            "Bug Report",
+            "Business Partnership",
+            "Other"
+          ]
+        },
+        {
+          "name": "message",
+          "label": "Message",
+          "type": "textarea",
+          "required": true,
+          "rows": 5
+        }
+      ],
+      "submitText": "Send Message",
+      "successMessage": "Thank you! We will contact you soon."
+    },
+    "map": {
+      "title": "Find Us",
+      "iframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5!2d-0.0807!3d51.5145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cac3c1c1b1b%3A0x1b1b1b1b1b1b1b1b!2s30%20St%20Mary%20Axe%2C%20London%20EC3A%208BF%2C%20UK!5e0!3m2!1sen!2sus!4v1705312345678!5m2!1sen!2sus"
+    }
+  },
+  "legal": {
+    "disclaimer": {
+      "title": "Legal Disclaimer",
+      "lastUpdated": "January 15, 2025",
+      "sections": [
+        {
+          "title": "Game Information",
+          "content": "Lafufu Typer is a typing game developed and published by our team. The game is provided \"as is\" without any warranties, express or implied. We strive to provide an enjoyable gaming experience but cannot guarantee that the game will be free from errors, bugs, or interruptions."
+        },
+        {
+          "title": "Age Restrictions",
+          "content": "Lafufu Typer is designed to be suitable for players of all ages. However, we recommend parental guidance for children under 13 years of age. Parents and guardians are responsible for monitoring their children's use of the game and ensuring appropriate content consumption."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "January 15, 2025",
+      "sections": [
+        {
+          "title": "Information We Collect",
+          "content": "When you use Lafufu Typer, we may collect personal information, game data, device information, usage analytics, and technical data to provide and improve the gaming experience."
+        },
+        {
+          "title": "How We Use Your Information",
+          "content": "We use collected information to provide and improve the game, personalize content, analyze performance, provide support, send updates, ensure security, and comply with legal obligations."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdated": "January 15, 2025",
+      "sections": [
+        {
+          "title": "What Are Cookies?",
+          "content": "Cookies are small text files stored on your device that help websites remember information about your visit, making your next visit easier and the site more useful."
+        },
+        {
+          "title": "How We Use Cookies",
+          "content": "We use cookies for essential functionality, performance monitoring, user experience enhancement, analytics, and security purposes in Lafufu Typer."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "sections": [
+      {
+        "title": "Quick Links",
+        "links": [
+          { "text": "Home", "url": "./" },
+          { "text": "Play Game", "url": "#game" },
+          { "text": "Features", "url": "#features" },
+          { "text": "News", "url": "./news.html" },
+          { "text": "Contact", "url": "./contacts.html" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "text": "Privacy Policy", "url": "./privacy.html" },
+          { "text": "Cookie Policy", "url": "./cookies.html" },
+          { "text": "Disclaimer", "url": "./disclaimer.html" }
+        ]
+      },
+      {
+        "title": "Contact Information",
+        "type": "contact",
+        "content": {
+          "email": "contact@virtualherotrek.com",
+          "phone": "+44 33 121 4567",
+          "address": "30 St Mary Axe, London EC3A 8BF, United Kingdom"
+        }
+      },
+      {
+        "title": "Follow Us",
+        "type": "social",
+        "socialLinks": [
+          { "platform": "Facebook", "url": "#", "icon": "facebook" },
+          { "platform": "Twitter", "url": "#", "icon": "twitter" },
+          { "platform": "Instagram", "url": "#", "icon": "instagram" }
+        ]
+      }
+    ],
+    "bottom": {
+      "copyright": "© 2025 Lafufu Typer. All rights reserved.",
+      "poweredBy": "Powered by GameMonetize",
+      "poweredByUrl": "https://gamemonetize.com"
+    }
+  },
+  "cookies": {
+    "bar": {
+      "message": "We use cookies to enhance your gaming experience. By continuing to use this site, you agree to our use of cookies.",
+      "acceptText": "Accept",
+      "policyUrl": "./cookies.html"
+    },
+    "types": [
+      {
+        "name": "lafufu_typer_session",
+        "purpose": "Maintains your game session and progress",
+        "duration": "Session",
+        "category": "Essential"
+      },
+      {
+        "name": "lafufu_typer_preferences",
+        "purpose": "Stores your game settings and preferences",
+        "duration": "1 year",
+        "category": "Preference"
+      },
+      {
+        "name": "lafufu_typer_analytics",
+        "purpose": "Tracks game performance and user behavior",
+        "duration": "2 years",
+        "category": "Performance"
+      },
+      {
+        "name": "lafufu_typer_consent",
+        "purpose": "Remembers your cookie consent choice",
+        "duration": "1 year",
+        "category": "Preference"
+      }
+    ]
+  },
+  "meta": {
+    "home": {
+      "title": "Lafufu Typer - Colorful Letter Matching Adventure",
+      "description": "Your goal is to quickly match the correct letters of the colorful and chaotic Lafufus before they reach the barrier and break through your defenses, ending the game and your progress.",
+      "keywords": "Lafufu Typer, 1 Player, 2D, amazing, Casual, Color, Cute, Fun, Funny, HTML, html5 games for your site, Hypercasual, Kids, Labubu, typing game, letter matching, colorful game"
+    },
+    "news": {
+      "title": "VirtualHeroTrek.com - Lafufu Typer News",
+      "description": "Stay updated with the latest Lafufu Typer news, game updates, and developer diaries. Discover new features, tips, and exciting developments in the colorful letter matching adventure.",
+      "keywords": "Lafufu Typer news, game updates, developer diaries, typing game news, letter matching updates"
+    },
+    "contact": {
+      "title": "VirtualHeroTrek.com - Lafufu Typer Contact",
+      "description": "Get in touch with the Lafufu Typer team. Contact us for support, feedback, or business inquiries. We're here to help make your typing adventure even better!",
+      "keywords": "Lafufu Typer contact, game support, feedback, business inquiries, customer service"
+    },
+    "disclaimer": {
+      "title": "VirtualHeroTrek.com - Lafufu Typer Disclaimer",
+      "description": "Legal disclaimer for Lafufu Typer game. Important information about game usage, liability, and terms of service.",
+      "keywords": "Lafufu Typer disclaimer, legal terms, game liability, terms of service"
+    },
+    "privacy": {
+      "title": "VirtualHeroTrek.com - Lafufu Typer Privacy Policy",
+      "description": "Privacy Policy for Lafufu Typer game. Learn how we collect, use, and protect your personal information.",
+      "keywords": "Lafufu Typer privacy policy, data protection, personal information, GDPR compliance"
+    },
+    "cookies": {
+      "title": "VirtualHeroTrek.com - Lafufu Typer Cookie Policy",
+      "description": "Cookie Policy for Lafufu Typer game. Learn about the cookies we use and how to manage them.",
+      "keywords": "Lafufu Typer cookie policy, cookies, tracking technologies, browser settings"
+    }
+  }
+}

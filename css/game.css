@@ -1,0 +1,162 @@
+/* Game Section Styles */
+.game-section {
+  background: linear-gradient(
+    135deg,
+    var(--bg-accent) 0%,
+    var(--bg-primary) 100%
+  );
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+.game-section h2 {
+  color: var(--text-accent);
+  margin-bottom: var(--spacing-lg);
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+}
+
+.game-container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  background: var(--bg-light);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  max-height: 80vh;
+}
+
+.game-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  background: var(--bg-primary);
+  transition: opacity var(--transition-normal);
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Prevent fullscreen */
+  -webkit-full-screen: none;
+  -moz-full-screen: none;
+  -ms-fullscreen: none;
+  fullscreen: none;
+  /* Mobile optimizations */
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.game-container iframe:hover {
+  opacity: 0.95;
+}
+
+/* Game loading state - removed to prevent interference with game interaction */
+
+/* Responsive iframe sizing */
+@media (max-width: 1280px) {
+  .game-container {
+    max-width: 90%;
+    aspect-ratio: 4/3;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-section {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .game-section h2 {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .game-container {
+    max-width: 95%;
+    aspect-ratio: 1/1;
+    max-height: 70vh;
+  }
+
+  .game-container iframe {
+    touch-action: manipulation;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+}
+
+@media (max-width: 360px) {
+  .game-section {
+    padding: var(--spacing-md) 0;
+  }
+
+  .game-section h2 {
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.5rem;
+  }
+
+  .game-container {
+    max-width: 98%;
+    aspect-ratio: 3/4;
+    max-height: 60vh;
+  }
+
+  .game-container iframe {
+    touch-action: manipulation;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 500px) and (orientation: landscape) {
+  .game-container {
+    aspect-ratio: 16/9;
+    max-height: 90vh;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .game-container {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* Focus states for accessibility */
+.game-container:focus-within {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Prevent fullscreen attempts */
+.game-container iframe:fullscreen,
+.game-container iframe:-webkit-full-screen,
+.game-container iframe:-moz-full-screen,
+.game-container iframe:-ms-fullscreen {
+  display: none !important;
+}
+
+/* Force iframe to stay in container */
+.game-container iframe {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Print styles */
+@media print {
+  .game-section {
+    display: none;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .game-container iframe {
+    transition: none;
+  }
+
+  .game-container iframe:hover {
+    opacity: 1;
+  }
+}

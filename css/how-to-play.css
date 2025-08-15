@@ -1,0 +1,261 @@
+/* How to Play Section Styles */
+.how-to-play-section {
+  background: linear-gradient(
+    135deg,
+    var(--bg-accent) 0%,
+    var(--bg-primary) 100%
+  );
+  padding: var(--spacing-xl) 0;
+}
+
+.how-to-play-section h2 {
+  text-align: center;
+  color: var(--text-accent);
+  margin-bottom: var(--spacing-xl);
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+}
+
+.how-to-play-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  justify-content: center;
+}
+
+.step {
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+  background: var(--bg-light);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  border-left: 4px solid var(--accent-color);
+  transition: all var(--transition-normal);
+  text-align: center;
+}
+
+.step:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-left-color: var(--primary-color);
+}
+
+.step h3 {
+  color: var(--text-accent);
+  margin-bottom: var(--spacing-md);
+  font-size: 1.25rem;
+  margin-top: var(--spacing-sm);
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background: var(--accent-color);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.step p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.instruction-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.instruction-card li {
+  padding: var(--spacing-xs) 0;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  position: relative;
+  padding-left: var(--spacing-md);
+}
+
+.instruction-card li::before {
+  content: "▶";
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  font-size: 0.8rem;
+  top: 0.2rem;
+}
+
+.instruction-card strong {
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 1280px) {
+  .how-to-play-content {
+    gap: var(--spacing-md);
+  }
+
+  .step {
+    min-width: 280px;
+    max-width: 320px;
+    padding: var(--spacing-md);
+  }
+}
+
+@media (max-width: 768px) {
+  .how-to-play-section {
+    padding: var(--spacing-lg) 0;
+  }
+
+  .how-to-play-section h2 {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .how-to-play-content {
+    gap: var(--spacing-sm);
+  }
+
+  .step {
+    min-width: 250px;
+    max-width: 300px;
+    padding: var(--spacing-sm);
+  }
+
+  .step h3 {
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .step-number {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .step p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .how-to-play-section {
+    padding: var(--spacing-md) 0;
+  }
+
+  .how-to-play-section h2 {
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+  }
+
+  .instructions-container {
+    gap: var(--spacing-xs);
+  }
+
+  .instruction-card {
+    min-width: 220px;
+    max-width: 280px;
+    padding: var(--spacing-xs);
+  }
+
+  .instruction-card h3 {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .instruction-card h3::before {
+    font-size: 1.125rem;
+    margin-right: var(--spacing-xs);
+  }
+
+  .instruction-card li {
+    padding: var(--spacing-xs) 0;
+    padding-left: var(--spacing-sm);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 500px) and (orientation: landscape) {
+  .how-to-play-content {
+    gap: var(--spacing-sm);
+  }
+
+  .step {
+    padding: var(--spacing-sm);
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .step {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Focus states for accessibility */
+.step:focus-within {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .step {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-left: 4px solid var(--accent-color);
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .step {
+    transition: none;
+  }
+
+  .step:hover {
+    transform: none;
+  }
+}
+
+/* Animation for cards appearance */
+.step {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.step:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.step:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.step:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.step:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+/* Hover effects for cards */
+.step:hover .step-number {
+  transform: scale(1.1);
+  transition: transform var(--transition-fast);
+}
+
+.step:hover h3 {
+  color: var(--primary-color);
+  transition: color var(--transition-fast);
+}
