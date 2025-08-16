@@ -37,7 +37,7 @@
 .hero-content h1 {
   font-size: clamp(2.5rem, 8vw, 4rem);
   margin-bottom: var(--spacing-md);
-  padding-top: 100px;
+  padding-top: 0;
   color: var(--text-accent);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out;
